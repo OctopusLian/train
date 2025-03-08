@@ -7,8 +7,3 @@ GET http://localhost:8000/member/hello
 Accept: application/json
 
 ###
-
-GET http://47.101.44.52/member/hello
-Accept: application/json
-
-###
