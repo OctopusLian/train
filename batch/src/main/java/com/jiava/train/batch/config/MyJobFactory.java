@@ -4,7 +4,9 @@ import jakarta.annotation.Resource;
 import org.quartz.spi.TriggerFiredBundle;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.scheduling.quartz.SpringBeanJobFactory;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MyJobFactory extends SpringBeanJobFactory {
     @Resource
     private AutowireCapableBeanFactory beanFactory;
